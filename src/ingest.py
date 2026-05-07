@@ -7,7 +7,7 @@ tidy, analysis-ready dataframe.
 
 import pandas as pd
 from pathlib import Path
-from .config import AGRIBALYSE_FILE
+from config import AGRIBALYSE_FILE
 
 # ---------------------------------------------------------------------------
 # CONSTANTS — EXACTLY AS THEY APPEAR IN YOUR FILE
