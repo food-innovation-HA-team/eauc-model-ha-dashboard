@@ -27,7 +27,7 @@ Key logic:
 
 import pandas as pd
 from pathlib import Path
-from config import SCENARIO_MODIFIERS_FILE
+from src.config import SCENARIO_MODIFIERS_FILE
 
 
 # ---------------------------------------------------------------------------

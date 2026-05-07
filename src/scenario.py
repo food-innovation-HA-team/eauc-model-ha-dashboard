@@ -12,7 +12,7 @@ Scenarios operate on the *mapped* dataframe (ingredient × stage × impact_categ
 """
 
 import pandas as pd
-
+from src.baseline import calculate_baseline
 
 # ---------------------------------------------------------------------------
 # 1. Scenario modification functions

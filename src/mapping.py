@@ -6,7 +6,7 @@ Maps recipe ingredients to Agribalyse products using the tidy dataframe.
 
 import pandas as pd
 from difflib import get_close_matches
-from .config import INGREDIENTS_FILE
+from src.config import INGREDIENTS_FILE
 
 PRODUCT_NAME_COL = "Product Name in English"
 

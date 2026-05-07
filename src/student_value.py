@@ -21,6 +21,8 @@ Outputs are structured dictionaries that can be used in:
 - dashboards
 """
 
+from src.config import STUDENT_VALUE_FILE
+
 # ---------------------------------------------------------------------------
 # CORE NARRATIVE BLOCKS
 # ---------------------------------------------------------------------------

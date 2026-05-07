@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import pandas as pd
-from style import COLOR_PALETTE
+from src.style import COLOR_PALETTE
 
 # ---------------------------------------------------------
 # Helper: wrap long x‑axis labels
