@@ -16,11 +16,11 @@ import io
 import streamlit as st
 import matplotlib.pyplot as plt
 
-from src.ingest import load_and_reshape_agribalyse
-from src.mapping import load_ingredients, map_ingredients_to_agribalyse
-from src.baseline import calculate_baseline
-from src.scenario import apply_scenario, modify_quantity
-from src.plots import (
+from ingest import load_and_reshape_agribalyse
+from mapping import load_ingredients, map_ingredients_to_agribalyse
+from baseline import calculate_baseline
+from scenario import apply_scenario, modify_quantity
+from plots import (
     plot_ingredient_breakdown,
     plot_stage_breakdown,
     plot_impact_totals,
